@@ -6,6 +6,11 @@
 
 ## Records
 
+### Chongqing Business Study Mission — 12–17 October 2026
+- **Organised itinerary:** [chongqing-business-study-itinerary-2026.md](./chongqing-business-study-itinerary-2026.md)
+- **Provenance:** Organised from itinerary text supplied by Shawn in ChatGPT on 2026-10-14.
+- **Caveats:** This is an organised transcription and summary of the supplied itinerary, not independent verification of the organiser's claims. Day 3 lists two alternative tracks (Program A and Program B); Shawn's assigned track is not specified. Day 3 Program B timings and the placement of the evening schedule are ambiguous. Confirm changes and timings with the organisers.
+
 ### Day 2 — Liangjiang Life Technologies City, Chongqing
 - **Summary:** [day-2-liangjiang-summary.md](./day-2-liangjiang-summary.md)
 - **Raw OCR preservation copy:** [day-2-liangjiang-raw-ocr.md](./day-2-liangjiang-raw-ocr.md)
