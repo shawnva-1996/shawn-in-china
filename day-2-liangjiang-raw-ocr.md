@@ -251,3 +251,19 @@ OCR称其为原料药和制剂一体化医药企业，药品批文近150项，�
 - 管：精细化发展健康管理产业。
 
 注意：原始OCR还包含大量重复段落、企业Logo文字碎片、图表碎片、错别字及不完整英文句子。为避免伪装成逐字无损记录，本文件是经过轻度整理的 OCR preservation copy，不是图片级逐字转录；原始 pasted transcript remains in the ChatGPT conversation.
+
+
+---
+
+## Addendum — additional OCR paste supplied on 2026-10-14
+
+Shawn supplied a further long OCR paste covering the same bilingual Liangjiang Life Technologies City / Dadi Life Science and Technology Park brochure. It repeats the park overview, “three centres, multiple platforms,” the 3+3 industry system, D-Park/M-Park/3C-Park plans, the 2024 industry figures, the 2025/2035 targets and company profiles. The readable substance of that paste is represented in the preservation copy above; this is **not a character-for-character archival copy of every line in the latest chat paste**. In particular, logo fragments, repeated sections, broken English, stray OCR strings and some long company-profile passages are not all reproduced verbatim. Do not treat this file as a complete literal transcript of the full latest paste. If a full verbatim archive is required, preserve the original message as a separate file before editing or normalising it.
+
+### Additional OCR fragments and claims visible in the latest paste
+
+- Closing statement (“展望 / Expectation”): the brochure says biomedical science and technology are closely connected to public health and refers to the “Healthy China” strategy and national development goals.
+- “名企汇聚，共绘产业蓝图”: the brochure attributes the park's appeal to supportive policies, location and supporting facilities, and says it has attracted companies into an integrated industry cluster.
+- Platform names include Chongqing Medical Devices Quality Testing Center; Liangjiang New Area Life-health Industry Development Service Center; Pharmaron's pharmaceutical R&D platform; CUTC China National Testing, Inspection and Certification; Boji medical transformation; iSIABio quantum-dot immunochromatography; PEG-Bio gene/protein/polypeptide drug R&D; a Chinese Academy of Sciences advanced medical-device engineering platform; Chongqing Customs Technology Center; Denali bioanalysis; cold-chain transport; Artron antigen/antibody R&D; Zhongnuo Hengkang CDMO/orthopaedic technology; and CAMAB human-antibody R&D.
+- Company profiles also include Impel's reusable patient return-electrode pad; BORN's non-invasive brain monitor; SWS dialysis/blood-purification systems; BOSSCOME surgical navigation; Haifu focused ultrasound; Porton's CDMO services; Boji's complex injectable development; JOINN preclinical safety evaluation; Pharmaron life-science R&D services; Wistron Medical exoskeleton/IVD/medical-AI products; Evaheart's ventricular-assist device; MakelD medical wristbands and label printers; and a Chinese Academy of Sciences-linked medical-engineering platform.
+- The OCR contains medical efficacy, regulatory approval, “first in the world,” market-leadership, patent and clinical-use claims. These remain promotional claims and must not be presented as independently verified facts.
+- Numeric OCR includes a Dadi Park plan of about 650 mu and 1 million m² total scale, around 700,000 m² built, about 170 tenants, and a target of 250+ tenants; broader Liangjiang planning refers to around 20 km² of industrial land, with separate themed-park area and output targets.
