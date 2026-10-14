@@ -15,4 +15,4 @@
 - **Summary:** [day-2-liangjiang-summary.md](./day-2-liangjiang-summary.md)
 - **Raw OCR preservation copy:** [day-2-liangjiang-raw-ocr.md](./day-2-liangjiang-raw-ocr.md)
 - **Provenance:** OCR text pasted by Shawn in ChatGPT on 2026-10-14 from a bilingual Chinese/English brochure about Liangjiang Life Technologies City and Dadi Life Science and Technology Park.
-- **Caveat:** OCR is noisy, duplicated and partially mistranslated. The summary distinguishes brochure claims and targets from independently verified facts. The OCR preservation file is lightly organised rather than a guaranteed character-perfect transcript; the original pasted transcript remains in the conversation.
+- **Caveat:** OCR is noisy, duplicated and partially mistranslated. The summary distinguishes brochure claims and targets from independently verified facts. The raw OCR file is a lightly organised preservation copy with a provenance/addendum for the additional paste; it is **not** a character-perfect archive of every line in the full chat paste.
