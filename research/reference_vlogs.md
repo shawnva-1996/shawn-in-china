@@ -93,7 +93,7 @@ Nearly every successful video uses some of these. Viewers expect them:
 |---|---|---|
 | "Ground floor is the 22nd floor" (Kuixing Building, Jiefangbei edges) | Drew, Kaash, Travel Intern | Probably at Jiefangbei, 16 Oct 21:53–23:00 (9 clips, 4 min). Needs a Gemini check. |
 | Monorail through a building (Liziba) | Nearly all | Not confirmed. A WeChat clip may have it. |
-| Hongyadong lit up at night | Nearly all | Yes: one 2.4-min clip, 14 Oct 21:59 |
+| Hongyadong lit up at night | Nearly all | Yes: 15 Oct 20:09–20:30 (several clips, rated 4–5/5 wow by Gemini) plus a 2.4-min clip on 14 Oct 21:59 |
 | Raffles City and The Crystal sky bridge | ATWWG, CoolVision | The Day 4 itinerary includes Chaotianmen at night (16 clips). Itinerary notes mention The Crystal Link. |
 | Hotpot (often in a bunker) | All | Dinner clips on 13, 14 and 16 Oct; Jiefangbei Food Street |
 | Fog and skyline | ATWWG, DW | Check the 17 Oct afternoon (42 clips) |
