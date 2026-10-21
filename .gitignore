@@ -1,0 +1,8 @@
+new_gemini_pool.json
+*.json.key
+.env*
+*.MOV
+*.mov
+*.mp4
+*.HEIC
+_work/
