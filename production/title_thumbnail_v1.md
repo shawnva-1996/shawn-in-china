@@ -1,6 +1,6 @@
 # Title and Thumbnail Options v1
 
-**Status:** title chosen by Shawn on 22 Oct 2026: **T1, "Chongqing Isn't Real… So I Went Inside"**, to match thumbnail A Thumbnail chosen: **A ("NOT CGI.")**. Script still awaiting approval. Mockups use real frames from the trip; final versions get a clean re-export once one is picked.
+**Status:** title chosen by Shawn on 22 Oct 2026: **T1, "Chongqing Isn't Real… So I Went Inside"**, to match thumbnail A. Thumbnail chosen: **A ("NOT CGI.")**. Script still awaiting approval. Mockups use real frames from the trip; final versions get a clean re-export once one is picked.
 
 ## Titles
 
