@@ -1,6 +1,6 @@
 # Title and Thumbnail Options v1
 
-**Status:** for Shawn's approval (22 Oct 2026). Mockups use real frames from the trip; final versions get a clean re-export once one is picked.
+**Status:** title chosen by Shawn on 22 Oct 2026: **T2, "I Went to China to Study. Tourists Never See This."** Script and thumbnail still awaiting approval. Mockups use real frames from the trip; final versions get a clean re-export once one is picked.
 
 ## Titles
 
@@ -8,22 +8,22 @@ Scored with vidIQ's title scorer (long-form, 0–100) on 22 Oct 2026. All four s
 
 | # | Title | vidIQ | Promise it makes |
 |---|---|---|---|
-| T1 | **Chongqing Isn't Real… So I Went Inside** | 96 | The city looks fake (drone show, 8D streets), and Shawn got access. **Recommended.** |
-| T2 | I Went to China to Study. Tourists Never See This. | 97 | Insider access first, travel second. |
+| T1 | Chongqing Isn't Real… So I Went Inside | 96 | The city looks fake (drone show, 8D streets), and Shawn got access. |
+| T2 | **I Went to China to Study. Tourists Never See This.** | 97 | Insider access first, travel second. **Chosen.** |
 | T3 | Don't Visit Chongqing Before Watching This | 95 | Pure FAQ/utility. Safest for search, least distinctive. |
 | T4 | Chongqing Itinerary: 6 Days Inside China's 8D City | 92 | Targets "chongqing itinerary" (3.7K searches/month, low competition). Good fallback title after the first 2 weeks. |
 
-**Why T1:** it pairs with the strongest image (the drone show), both halves are paid off in the first 35 seconds of the script, and it doesn't repeat any thumbnail text.
+**With T2:** the cold open pays it off in the first 35 seconds ("Doors tourists don't get to walk through", then the robot and Hongyadong).
 
 ## Thumbnails
 
 | # | File | Text | Pairs with |
 |---|---|---|---|
-| A | [`thumb_A_drone_bird.jpg`](./thumbnails/thumb_A_drone_bird.jpg) | "CHONGQING" / "NOT CGI." over the rainbow drone bird | T1 (recommended) or T3 |
-| B | [`thumb_B_tourists_vs_me.jpg`](./thumbnails/thumb_B_tourists_vs_me.jpg) | Split: Hongyadong "SEE THIS / TOURISTS" vs humanoid robot "SAW THIS / ME" | T1 or T4 |
-| C | [`thumb_C_came_to_study.jpg`](./thumbnails/thumb_C_came_to_study.jpg) | "I WENT TO CHINA TO STUDY..." with the dancing humanoid circled | T1 or T3 (not T2, the text would repeat) |
+| A | [`thumb_A_drone_bird.jpg`](./thumbnails/thumb_A_drone_bird.jpg) | "CHONGQING" / "NOT CGI." over the rainbow drone bird | T2 |
+| B | [`thumb_B_tourists_vs_me.jpg`](./thumbnails/thumb_B_tourists_vs_me.jpg) | Split: Hongyadong "SEE THIS / TOURISTS" vs humanoid robot "SAW THIS / ME" | T2 (echoes "tourists" in the title, which reinforces rather than repeats) |
+| C | [`thumb_C_this_is_normal.jpg`](./thumbnails/thumb_C_this_is_normal.jpg) | "THIS IS NORMAL HERE." with the dancing humanoid circled (retexted so it doesn't repeat the T2 title) | T2 |
 
-**Plan:** publish with T1 and run YouTube's Test & Compare on A, B and C. It picks the winner by watch time, so no guessing.
+**Plan:** publish with T2 and run YouTube's Test & Compare on A, B and C. It picks the winner by watch time, so no guessing.
 
 **Known gap:** none of the mockups show your face. The reference study found face thumbnails help most when the creator is the brand. A 2-second reaction shot of you (at the robot or the hotpot) would make a stronger version of B or C. If you have one, point me to it.
 
