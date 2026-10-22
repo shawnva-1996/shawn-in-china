@@ -1,6 +1,6 @@
 # Title and Thumbnail Options v1
 
-**Status:** title chosen by Shawn on 22 Oct 2026: **T2, "I Went to China to Study. Tourists Never See This."** Script and thumbnail still awaiting approval. Mockups use real frames from the trip; final versions get a clean re-export once one is picked.
+**Status:** title chosen by Shawn on 22 Oct 2026: **T2, "I Went to China to Study. Tourists Never See This."** Thumbnail chosen: **A ("NOT CGI.")**. Script still awaiting approval. Mockups use real frames from the trip; final versions get a clean re-export once one is picked.
 
 ## Titles
 
@@ -23,7 +23,7 @@ Scored with vidIQ's title scorer (long-form, 0–100) on 22 Oct 2026. All four s
 | B | [`thumb_B_tourists_vs_me.jpg`](./thumbnails/thumb_B_tourists_vs_me.jpg) | Split: Hongyadong "SEE THIS / TOURISTS" vs humanoid robot "SAW THIS / ME" | T2 (echoes "tourists" in the title, which reinforces rather than repeats) |
 | C | [`thumb_C_this_is_normal.jpg`](./thumbnails/thumb_C_this_is_normal.jpg) | "THIS IS NORMAL HERE." with the dancing humanoid circled (retexted so it doesn't repeat the T2 title) | T2 |
 
-**Plan:** publish with T2 and run YouTube's Test & Compare on A, B and C. It picks the winner by watch time, so no guessing.
+**Plan:** publish with T2 and thumbnail A (Shawn's pick). B and C stay on file as optional Test & Compare challengers.
 
 **Known gap:** none of the mockups show your face. The reference study found face thumbnails help most when the creator is the brand. A 2-second reaction shot of you (at the robot or the hotpot) would make a stronger version of B or C. If you have one, point me to it.
 
