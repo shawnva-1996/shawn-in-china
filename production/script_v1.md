@@ -1,6 +1,6 @@
 # Shawn in China, Episode 1: Narration Script v1
 
-**Status:** draft for Shawn's approval (22 Oct 2026). Title chosen: "I Went to China to Study. Tourists Never See This." Thumbnail chosen: A ("NOT CGI."). Nothing is rendered until the script, title and thumbnail are approved.
+**Status:** draft for Shawn's approval (22 Oct 2026). Title chosen: "Chongqing Isn't Real… So I Went Inside". Thumbnail chosen: A ("NOT CGI."). Nothing is rendered until the script, title and thumbnail are approved.
 **Runtime target:** 11–13 minutes. The narration is about 1,200 words (roughly 8.5 minutes at a relaxed pace) plus your own lines where marked **[Shawn to confirm]**. The rest is natural sound, music and B-roll breathing room. Kept tight on purpose so the city and natural sound get room.
 **Voice:** [brand_voice.md](../research/brand_voice.md). **Questions answered:** [faq_bank.md](../research/faq_bank.md). **Clips:** [shot_log.csv](./shot_log.csv).
 
