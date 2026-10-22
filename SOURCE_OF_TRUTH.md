@@ -26,5 +26,7 @@
 - **Shot log:** [production/shot_log.md](./production/shot_log.md) and [production/shot_log.csv](./production/shot_log.csv). Built from the capture time and GPS of the local footage. Labels are time-based and still need a check against the visuals.
 - **Reference study:** [research/reference_vlogs.md](./research/reference_vlogs.md). Covers viral China and Chongqing vlogs, titles, thumbnails and keyword demand.
 - **FAQ bank:** [research/faq_bank.md](./research/faq_bank.md). Traveller questions the narration answers, with sources and footage locations.
-- **Brand voice:** [research/brand_voice.md](./research/brand_voice.md). Provisional v0 until the journal images arrive.
+- **Brand voice:** [research/brand_voice.md](./research/brand_voice.md). v1, built from the reference study (there are no journal images). Tune after the first narration recording.
+- **Narration script:** [production/script_v1.md](./production/script_v1.md). Draft for approval, with a shot list per section.
+- **Title and thumbnail options:** [production/title_thumbnail_v1.md](./production/title_thumbnail_v1.md), mockups in [production/thumbnails/](./production/thumbnails/).
 - **Never commit:** API keys (e.g. `new_gemini_pool.json`), raw footage, or renders.
