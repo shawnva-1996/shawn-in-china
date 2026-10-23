@@ -1,0 +1,1291 @@
+{
+ "chunks": [
+  {
+   "i": 0,
+   "keep": true,
+   "para": "P01",
+   "reason": "Good take for opening line",
+   "note": ""
+  },
+  {
+   "i": 1,
+   "keep": true,
+   "para": "P01",
+   "reason": "kept after re-check: Misread ('thousands of clothes' instead of 'thousands of drones')",
+   "note": ""
+  },
+  {
+   "i": 2,
+   "keep": true,
+   "para": "P01",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 3,
+   "keep": true,
+   "para": "P01",
+   "reason": "Fluent take completing P01",
+   "note": ""
+  },
+  {
+   "i": 4,
+   "keep": true,
+   "para": "P02",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 5,
+   "keep": true,
+   "para": "P02",
+   "reason": "kept after re-check: Stumble / false start ('but not as it were')",
+   "note": ""
+  },
+  {
+   "i": 6,
+   "keep": true,
+   "para": "P02",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 7,
+   "keep": true,
+   "para": "P02",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 8,
+   "keep": true,
+   "para": "P02",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 9,
+   "keep": true,
+   "para": "P03",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 10,
+   "keep": true,
+   "para": "P03",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 11,
+   "keep": true,
+   "para": "P03",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 12,
+   "keep": true,
+   "para": "P04",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 13,
+   "keep": true,
+   "para": "P04",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 14,
+   "keep": true,
+   "para": "P05",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 15,
+   "keep": true,
+   "para": "P05",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 16,
+   "keep": true,
+   "para": "P05",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 17,
+   "keep": true,
+   "para": "P05",
+   "reason": "Fluent take",
+   "note": "Narrator said 2022 instead of 2024"
+  },
+  {
+   "i": 18,
+   "keep": true,
+   "para": "P05",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 19,
+   "keep": true,
+   "para": "P05",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 20,
+   "keep": false,
+   "para": null,
+   "reason": "Stumble ('not a poet')",
+   "note": ""
+  },
+  {
+   "i": 21,
+   "keep": true,
+   "para": "P06",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 22,
+   "keep": true,
+   "para": "P06",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 23,
+   "keep": true,
+   "para": "P06",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 24,
+   "keep": true,
+   "para": "P06",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 25,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 26,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 27,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 28,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 29,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 30,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 31,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take with Shawn's confirmation inserted",
+   "note": ""
+  },
+  {
+   "i": 32,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 33,
+   "keep": false,
+   "para": null,
+   "reason": "Stumble ('still carry a lot a bit of')",
+   "note": ""
+  },
+  {
+   "i": 34,
+   "keep": true,
+   "para": "P07",
+   "reason": "Fluent re-take of line",
+   "note": ""
+  },
+  {
+   "i": 35,
+   "keep": false,
+   "para": null,
+   "reason": "False start",
+   "note": ""
+  },
+  {
+   "i": 36,
+   "keep": false,
+   "para": null,
+   "reason": "Stumble",
+   "note": ""
+  },
+  {
+   "i": 37,
+   "keep": false,
+   "para": null,
+   "reason": "Stumble",
+   "note": ""
+  },
+  {
+   "i": 38,
+   "keep": false,
+   "para": null,
+   "reason": "Filler word",
+   "note": ""
+  },
+  {
+   "i": 39,
+   "keep": true,
+   "para": "P08",
+   "reason": "Clean start for third point",
+   "note": ""
+  },
+  {
+   "i": 40,
+   "keep": true,
+   "para": "P08",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 41,
+   "keep": false,
+   "para": null,
+   "reason": "Incomplete sentence",
+   "note": ""
+  },
+  {
+   "i": 42,
+   "keep": true,
+   "para": "P08",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 43,
+   "keep": true,
+   "para": "P09",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 44,
+   "keep": true,
+   "para": "P09",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 45,
+   "keep": true,
+   "para": "P09",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 46,
+   "keep": true,
+   "para": "P09",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 47,
+   "keep": true,
+   "para": "P10",
+   "reason": "kept after re-check: Mispronunciation ('click context')",
+   "note": ""
+  },
+  {
+   "i": 48,
+   "keep": true,
+   "para": "P10",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 49,
+   "keep": true,
+   "para": "P10",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 50,
+   "keep": true,
+   "para": "P11",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 51,
+   "keep": true,
+   "para": "P11",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 52,
+   "keep": true,
+   "para": "P11",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 53,
+   "keep": true,
+   "para": "P11",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 54,
+   "keep": false,
+   "para": null,
+   "reason": "False start",
+   "note": ""
+  },
+  {
+   "i": 55,
+   "keep": false,
+   "para": null,
+   "reason": "Incomplete take",
+   "note": ""
+  },
+  {
+   "i": 56,
+   "keep": true,
+   "para": "P11",
+   "reason": "Full clean re-take",
+   "note": ""
+  },
+  {
+   "i": 57,
+   "keep": true,
+   "para": "P11",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 58,
+   "keep": true,
+   "para": "P11",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 59,
+   "keep": true,
+   "para": "P12",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 60,
+   "keep": true,
+   "para": "P12",
+   "reason": "kept after re-check: Self-corrected number error",
+   "note": "trimmed to 199.73-202.23"
+  },
+  {
+   "i": 61,
+   "keep": true,
+   "para": "P12",
+   "reason": "Correction take",
+   "note": ""
+  },
+  {
+   "i": 62,
+   "keep": true,
+   "para": "P12",
+   "reason": "Fluent take",
+   "note": "Narrator said 'Australia' instead of 'Austria'"
+  },
+  {
+   "i": 63,
+   "keep": true,
+   "para": "P12",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 64,
+   "keep": true,
+   "para": "P13",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 65,
+   "keep": true,
+   "para": "P13",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 66,
+   "keep": true,
+   "para": "P13",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 67,
+   "keep": true,
+   "para": "P13",
+   "reason": "Fluent take",
+   "note": "Mispronounced 'Suzhou and Tianjin' as 'Sujo and Tien Tien'"
+  },
+  {
+   "i": 68,
+   "keep": true,
+   "para": "P13",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 69,
+   "keep": true,
+   "para": "P13",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 70,
+   "keep": true,
+   "para": "P14",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 71,
+   "keep": true,
+   "para": "P14",
+   "reason": "Fluent take",
+   "note": "Narrator substituted 'Tiong Bahru' for 'Chongqing'"
+  },
+  {
+   "i": 72,
+   "keep": true,
+   "para": "P15",
+   "reason": "kept after re-check: False start / mispronunciation chunk pair",
+   "note": ""
+  },
+  {
+   "i": 73,
+   "keep": true,
+   "para": "P15",
+   "reason": "kept after re-check: Mispronunciation of Guanyinqiao",
+   "note": ""
+  },
+  {
+   "i": 74,
+   "keep": true,
+   "para": "P15",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 75,
+   "keep": true,
+   "para": "P15",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 76,
+   "keep": true,
+   "para": "P16",
+   "reason": "Fluent take",
+   "note": "Slight mispronunciation ('they three' / 'split into')"
+  },
+  {
+   "i": 77,
+   "keep": true,
+   "para": "P16",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 78,
+   "keep": true,
+   "para": "P16",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 79,
+   "keep": true,
+   "para": "P17",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 80,
+   "keep": true,
+   "para": "P17",
+   "reason": "kept after re-check: Stumble on Liangjiang",
+   "note": ""
+  },
+  {
+   "i": 81,
+   "keep": true,
+   "para": "P17",
+   "reason": "Fluent completion of title",
+   "note": ""
+  },
+  {
+   "i": 82,
+   "keep": true,
+   "para": "P17",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 83,
+   "keep": true,
+   "para": "P17",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 84,
+   "keep": true,
+   "para": "P18",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 85,
+   "keep": true,
+   "para": "P18",
+   "reason": "kept after re-check: False start",
+   "note": ""
+  },
+  {
+   "i": 86,
+   "keep": true,
+   "para": "P18",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 87,
+   "keep": true,
+   "para": "P18",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 88,
+   "keep": true,
+   "para": "P19",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 89,
+   "keep": true,
+   "para": "P19",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 90,
+   "keep": true,
+   "para": "P20",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 91,
+   "keep": true,
+   "para": "P20",
+   "reason": "Fluent take",
+   "note": "Said 'house' instead of 'hall'"
+  },
+  {
+   "i": 92,
+   "keep": true,
+   "para": "P20",
+   "reason": "Fluent take",
+   "note": "Pronounced 'tricks' as 'clicks'"
+  },
+  {
+   "i": 93,
+   "keep": true,
+   "para": "P20",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 94,
+   "keep": false,
+   "para": null,
+   "reason": "Filler word",
+   "note": ""
+  },
+  {
+   "i": 95,
+   "keep": true,
+   "para": "P20",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 96,
+   "keep": true,
+   "para": "P20",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 97,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 98,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 99,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 100,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": "Said 'Milan' instead of 'mala'"
+  },
+  {
+   "i": 101,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 102,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": "Said 'Yin Yang' for 'yuanyang'"
+  },
+  {
+   "i": 103,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 104,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 105,
+   "keep": true,
+   "para": "P21",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 106,
+   "keep": true,
+   "para": "P22",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 107,
+   "keep": true,
+   "para": "P22",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 108,
+   "keep": true,
+   "para": "P22",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 109,
+   "keep": true,
+   "para": "P22",
+   "reason": "Fluent take",
+   "note": "Said 'Euro's' instead of 'murals'"
+  },
+  {
+   "i": 110,
+   "keep": true,
+   "para": "P22",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 111,
+   "keep": true,
+   "para": "P23",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 112,
+   "keep": true,
+   "para": "P23",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 113,
+   "keep": true,
+   "para": "P23",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 114,
+   "keep": true,
+   "para": "P23",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 115,
+   "keep": true,
+   "para": "P24",
+   "reason": "Fluent take",
+   "note": "Said 'calls for' instead of 'comes for'"
+  },
+  {
+   "i": 116,
+   "keep": true,
+   "para": "P24",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 117,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 118,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": "Mispronounced 'lit gold' as 'net gold'"
+  },
+  {
+   "i": 119,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 120,
+   "keep": false,
+   "para": null,
+   "reason": "Repeated word",
+   "note": ""
+  },
+  {
+   "i": 121,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 122,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 123,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 124,
+   "keep": false,
+   "para": null,
+   "reason": "Incomplete sentence",
+   "note": ""
+  },
+  {
+   "i": 125,
+   "keep": true,
+   "para": "P25",
+   "reason": "Fluent take",
+   "note": "Paraphrased 'busy but worth it' to 'busy but happy'"
+  },
+  {
+   "i": 126,
+   "keep": true,
+   "para": "P26",
+   "reason": "Fluent take",
+   "note": "Mispronounced 'safe at night' as 'safe to break'"
+  },
+  {
+   "i": 127,
+   "keep": true,
+   "para": "P26",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 128,
+   "keep": true,
+   "para": "P26",
+   "reason": "Fluent take",
+   "note": "Paraphrased 'families out late' to 'families are going'"
+  },
+  {
+   "i": 129,
+   "keep": true,
+   "para": "P26",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 130,
+   "keep": true,
+   "para": "P26",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 131,
+   "keep": true,
+   "para": "P27",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 132,
+   "keep": true,
+   "para": "P27",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 133,
+   "keep": true,
+   "para": "P28",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 134,
+   "keep": true,
+   "para": "P28",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 135,
+   "keep": true,
+   "para": "P29",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 136,
+   "keep": true,
+   "para": "P29",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 137,
+   "keep": true,
+   "para": "P29",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 138,
+   "keep": true,
+   "para": "P29",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 139,
+   "keep": true,
+   "para": "P29",
+   "reason": "Fluent take after mid-sentence stumble",
+   "note": "trimmed to 458.10-465.12"
+  },
+  {
+   "i": 140,
+   "keep": false,
+   "para": null,
+   "reason": "Incomplete sentence",
+   "note": ""
+  },
+  {
+   "i": 141,
+   "keep": true,
+   "para": "P29",
+   "reason": "Fluent completion take",
+   "note": "Said 'done filming' instead of 'no filming'"
+  },
+  {
+   "i": 142,
+   "keep": true,
+   "para": "P30",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 143,
+   "keep": false,
+   "para": null,
+   "reason": "Re-read sentence",
+   "note": ""
+  },
+  {
+   "i": 144,
+   "keep": true,
+   "para": "P30",
+   "reason": "Full clean take",
+   "note": ""
+  },
+  {
+   "i": 145,
+   "keep": true,
+   "para": "P30",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 146,
+   "keep": true,
+   "para": "P30",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 147,
+   "keep": true,
+   "para": "P31",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 148,
+   "keep": true,
+   "para": "P31",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 149,
+   "keep": true,
+   "para": "P31",
+   "reason": "Fluent take",
+   "note": "Mispronounced Jiefangbei as 'Dear Funky'"
+  },
+  {
+   "i": 150,
+   "keep": true,
+   "para": "P31",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 151,
+   "keep": true,
+   "para": "P31",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 152,
+   "keep": true,
+   "para": "P32",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 153,
+   "keep": true,
+   "para": "P32",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 154,
+   "keep": true,
+   "para": "P33",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 155,
+   "keep": true,
+   "para": "P33",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 156,
+   "keep": true,
+   "para": "P33",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 157,
+   "keep": true,
+   "para": "P34",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 158,
+   "keep": true,
+   "para": "P34",
+   "reason": "Kept take with self-correction",
+   "note": "trimmed to 536.60-540.90"
+  },
+  {
+   "i": 159,
+   "keep": true,
+   "para": "P34",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 160,
+   "keep": true,
+   "para": "P34",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 161,
+   "keep": true,
+   "para": "P35",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 162,
+   "keep": true,
+   "para": "P35",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 163,
+   "keep": true,
+   "para": "P35",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 164,
+   "keep": true,
+   "para": "P35",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 165,
+   "keep": true,
+   "para": "P36",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 166,
+   "keep": true,
+   "para": "P37",
+   "reason": "Fluent take",
+   "note": "Narrator answered 'Definitely' instead of 'For me, yes'"
+  },
+  {
+   "i": 167,
+   "keep": true,
+   "para": "P37",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 168,
+   "keep": true,
+   "para": "P37",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 169,
+   "keep": true,
+   "para": "P38",
+   "reason": "Fluent take",
+   "note": "Mispronounced Ngee Ann as 'Nian'"
+  },
+  {
+   "i": 170,
+   "keep": true,
+   "para": "P38",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 171,
+   "keep": true,
+   "para": "P38",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 172,
+   "keep": true,
+   "para": "P38",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 173,
+   "keep": true,
+   "para": "P39",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 174,
+   "keep": true,
+   "para": "P39",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 175,
+   "keep": true,
+   "para": "P39",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 176,
+   "keep": true,
+   "para": "P39",
+   "reason": "Only take of line",
+   "note": "trimmed to 608.19-609.64"
+  },
+  {
+   "i": 177,
+   "keep": true,
+   "para": "P40",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 178,
+   "keep": true,
+   "para": "P40",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 179,
+   "keep": true,
+   "para": "P40",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 180,
+   "keep": true,
+   "para": "P40",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 181,
+   "keep": true,
+   "para": "P40",
+   "reason": "Fluent take",
+   "note": ""
+  },
+  {
+   "i": 182,
+   "keep": true,
+   "para": "P40",
+   "reason": "Fluent take",
+   "note": ""
+  }
+ ],
+ "missing": [
+  "That's thousands of drones",
+  "Trust me on the translation app.",
+  "And at night, Guanyinqiao.",
+  "You see the city the way the people running it see it."
+ ]
+}
