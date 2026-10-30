@@ -13,8 +13,10 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, HERE + '/gfx')
 from reels_spec import REELS
 from reel_vo import energy, start_of, end_of, quiet, HOP
-import reels_score, travel_score
-MUSIC = {'hype': reels_score.score, 'travel': travel_score.score}     # series trailer = hype; day reels = light travel (30 Oct)
+import reels_score, travel_score, guofeng_score, guofeng_ai
+# series trailer = hype; day reels: 'travel' rejected 30 Oct (not Chinese), now Chinese-style trap ('guofeng' = synthesised,
+# 'guofeng_ai' = produced track fitted to the timeline)
+MUSIC = {'hype': reels_score.score, 'travel': travel_score.score, 'guofeng': guofeng_score.score, 'guofeng_ai': guofeng_ai.score}
 
 GRID, T0, END = 0.3, 0.2, 3.2
 SR = 48000
