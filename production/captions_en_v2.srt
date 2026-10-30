@@ -1,0 +1,584 @@
+1
+00:00:01,600 --> 00:00:03,480
+That is not a CGI.
+
+2
+00:00:03,803 --> 00:00:10,183
+That's thousands of drones over the river in Chongqing and the whole city came out to watch.
+
+3
+00:00:10,574 --> 00:00:13,674
+I spent six days here but not as a tourist.
+
+4
+00:00:13,925 --> 00:00:16,335
+I came on a study mission from Singapore.
+
+5
+00:00:16,640 --> 00:00:19,190
+government briefings, hospitals,
+
+6
+00:00:19,440 --> 00:00:20,550
+Robot Labs
+
+7
+00:00:20,956 --> 00:00:23,886
+Doors tourists don't get to walk through.
+
+8
+00:00:24,205 --> 00:00:24,725
+So
+
+9
+00:00:25,115 --> 00:00:26,855
+This video does two things.
+
+10
+00:00:27,311 --> 00:00:31,411
+It answers every question you'll have before you visit Chongqing.
+
+11
+00:00:31,794 --> 00:00:34,484
+and it shows you what's behind those doors.
+
+12
+00:00:35,000 --> 00:00:35,750
+I'm Shawn
+
+13
+00:00:35,879 --> 00:00:38,929
+I'm Singaporean and this is Shawn in China.
+
+14
+00:00:39,289 --> 00:00:39,879
+Let's go.
+
+15
+00:00:40,179 --> 00:00:42,419
+First question, everyone asked.
+
+16
+00:00:42,788 --> 00:00:43,828
+Do you need a visa?
+
+17
+00:00:44,242 --> 00:00:45,632
+If you're Singaporean
+
+18
+00:00:46,017 --> 00:00:54,067
+Since February 2024, Singapore and China let each other's citizens visit visa-free for up to 30 days.
+
+19
+00:00:54,441 --> 00:00:55,501
+Not Singaporean.
+
+20
+00:00:55,951 --> 00:00:58,971
+Check the 240 hour visa free transit
+
+21
+00:00:59,443 --> 00:01:02,863
+Chongqing's airport is one of the eligible entry points.
+
+22
+00:01:03,217 --> 00:01:05,517
+As long as you're flying on to a third country.
+
+23
+00:01:05,892 --> 00:01:09,372
+the rules change. So check the official list before you book.
+
+24
+00:01:09,773 --> 00:01:11,003
+second question
+
+25
+00:01:11,392 --> 00:01:12,192
+How do you pay?
+
+26
+00:01:12,593 --> 00:01:13,233
+Here's the thing.
+
+27
+00:01:13,683 --> 00:01:16,573
+China barely uses cash or cards in shops.
+
+28
+00:01:16,978 --> 00:01:19,198
+It runs on Alipay and WeChat Pay.
+
+29
+00:01:19,629 --> 00:01:25,309
+And both now accept foreign visa and mastercard. Set them up and verify them before you fly.
+
+30
+00:01:25,663 --> 00:01:29,533
+I used Alipay and WeChat Pay and it worked almost everywhere.
+
+31
+00:01:29,880 --> 00:01:32,310
+Still, carry a bit of cash.
+
+32
+00:01:32,656 --> 00:01:33,396
+The third
+
+33
+00:01:33,800 --> 00:01:38,180
+Google, WhatsApp, and Instagram don't work on Chinese networks.
+
+34
+00:01:38,622 --> 00:01:40,712
+So I recommend downloading Amap
+
+35
+00:01:41,019 --> 00:01:43,199
+and a translation app before you land.
+
+36
+00:01:43,621 --> 00:01:50,671
+Then, a welcome dinner. Round table, lazy Susan and a dish every 30 seconds.
+
+37
+00:01:51,111 --> 00:01:54,451
+I didn't know half of what I was eating. I finished all of it.
+
+38
+00:01:54,880 --> 00:01:56,110
+Quick context.
+
+39
+00:01:56,524 --> 00:02:01,244
+Because Chongqing confuses everyone, why do people call it the 8D city?
+
+40
+00:02:01,583 --> 00:02:04,153
+It's built on mountains where two rivers meet.
+
+41
+00:02:04,558 --> 00:02:06,078
+The Yangtze and Jialing.
+
+42
+00:02:06,405 --> 00:02:10,415
+There's barely any flat ground. So the city stacks on itself.
+
+43
+00:02:10,913 --> 00:02:12,923
+roads run over roofs
+
+44
+00:02:13,339 --> 00:02:16,909
+You walk into a mall on the ground floor and walk out on the eighth.
+
+45
+00:02:17,316 --> 00:02:20,406
+Your map app has no idea which level you're on.
+
+46
+00:02:20,748 --> 00:02:25,938
+We started at the planning exhibition gallery, which is basically the city explaining itself.
+
+47
+00:02:26,404 --> 00:02:31,934
+The whole municipality has around 32 million people and it's about the size of Austria.
+
+48
+00:02:32,306 --> 00:02:33,966
+Most of that is countryside.
+
+49
+00:02:34,308 --> 00:02:36,938
+but the core still feels endless.
+
+50
+00:02:37,318 --> 00:02:40,198
+Then a briefing I didn't expect to find so interesting.
+
+51
+00:02:40,559 --> 00:02:44,309
+the China Singapore Chongqing Connectivity Initiative.
+
+52
+00:02:44,616 --> 00:02:50,106
+It's a government to government project, Singapore's third in China after Suzhou and Tianjin.
+
+53
+00:02:50,482 --> 00:02:53,642
+Finance logistics aviation digital links.
+
+54
+00:02:54,067 --> 00:02:57,987
+Is why a Singaporean group gets a seat at this tables at all.
+
+55
+00:02:58,344 --> 00:03:04,664
+Even the hospital we visited that afternoon was Singaporean, Raffles Hospital in the middle of Chongqing.
+
+56
+00:03:05,014 --> 00:03:05,564
+And at night,
+
+57
+00:03:05,936 --> 00:03:06,776
+Guanyinqiao
+
+58
+00:03:07,126 --> 00:03:11,236
+Screens on every building and the whole street out walking.
+
+59
+00:03:11,553 --> 00:03:12,243
+Day three.
+
+60
+00:03:12,603 --> 00:03:14,123
+Our group split in two.
+
+61
+00:03:14,549 --> 00:03:17,469
+Architects went to see urban renewal projects.
+
+62
+00:03:17,742 --> 00:03:19,512
+I went the healthcare and tech route.
+
+63
+00:03:19,955 --> 00:03:22,735
+First stop, Liangjiang Life Science City.
+
+64
+00:03:23,166 --> 00:03:31,236
+picture a whole district planned around medical devices, biotech and digital health. That is what this is.
+
+65
+00:03:31,627 --> 00:03:39,527
+Then Haifu Medical. They build HIFU machines focused ultrasound that treats tumors without a single cut.
+
+66
+00:03:39,976 --> 00:03:41,426
+developed here in Chongqing.
+
+67
+00:03:41,771 --> 00:03:47,321
+And then in the afternoon, everyone back home asked about, are robots really everywhere in China?
+
+68
+00:03:53,697 --> 00:03:55,587
+The humanoid danced for us.
+
+69
+00:03:56,023 --> 00:03:58,393
+A robot dog walked around
+
+70
+00:03:58,823 --> 00:04:04,263
+But what got me wasn't the tricks. It was how normal it was to the people showing us.
+
+71
+00:04:04,719 --> 00:04:06,559
+To them this is everyday life.
+
+72
+00:04:06,977 --> 00:04:07,807
+And then dinner.
+
+73
+00:04:08,137 --> 00:04:12,687
+On the walk there, skewers rolled in spice powder were in Chongqing after all.
+
+74
+00:04:13,053 --> 00:04:16,633
+And then we ate at a Mongolian style place done up like a yurt.
+
+75
+00:04:17,043 --> 00:04:21,353
+So there's a big soup of cabbage bubbling away in the middle of the table.
+
+76
+00:04:21,707 --> 00:04:26,067
+And then the main event, a whole baby lamb roasted in oven.
+
+77
+00:04:26,454 --> 00:04:27,574
+brought out by the shop.
+
+78
+00:04:27,966 --> 00:04:29,936
+and you carve it right at the table.
+
+79
+00:04:30,312 --> 00:04:33,292
+You put your gloves on and pull off the meat with your hands.
+
+80
+00:04:33,646 --> 00:04:37,436
+No mala this time, just soup, lamb and a lot of toasting.
+
+81
+00:04:37,739 --> 00:04:39,789
+This might be the best meal we had.
+
+82
+00:04:40,122 --> 00:04:43,042
+If you think Chongqing is only neon, start here.
+
+83
+00:04:43,397 --> 00:04:48,547
+Eling number two factory used to print money for China's Central Bank in the 1940s.
+
+84
+00:04:48,889 --> 00:04:54,889
+Now it's murals, cafes and studios. And yes, that's a PlayStation controller on a wall.
+
+85
+00:04:55,223 --> 00:04:58,593
+In the afternoon, the connectivity initiative exhibition hall.
+
+86
+00:04:58,948 --> 00:05:02,988
+Seeing Singapore's leaders on the wall in Chongqing hit differently.
+
+87
+00:05:03,286 --> 00:05:08,206
+Then a trade conference. Singapore and Chongqing businesses trying to find each other.
+
+88
+00:05:08,508 --> 00:05:11,888
+And then the night everyone comes for. Hongyadong.
+
+89
+00:05:16,183 --> 00:05:22,623
+It's a cliffside complex of stilt houses lit gold and people say it looks like spirited away.
+
+90
+00:05:22,933 --> 00:05:23,873
+But when should you go?
+
+91
+00:05:24,207 --> 00:05:25,017
+After dark
+
+92
+00:05:25,364 --> 00:05:31,264
+The usual advice is to skip the 7:30 p.m. crush and aim for after 8.
+
+93
+00:05:31,673 --> 00:05:34,393
+Honestly, it's still just as crowded, but
+
+94
+00:05:34,768 --> 00:05:36,808
+It's a once in a lifetime opportunity.
+
+95
+00:05:37,095 --> 00:05:38,275
+Is it safe at night?
+
+96
+00:05:38,721 --> 00:05:40,681
+From everything I saw, yes.
+
+97
+00:05:41,110 --> 00:05:45,470
+Families out late, people everywhere, just mind your phone in the crowds.
+
+98
+00:05:45,885 --> 00:05:47,995
+and stand on the riverside and look back
+
+99
+00:05:48,411 --> 00:05:51,441
+That's the 8D city in one view.
+
+100
+00:05:51,746 --> 00:05:54,466
+Day five was the nerdy day.
+
+101
+00:05:54,835 --> 00:05:57,355
+Ever heard of East Data West Computing?
+
+102
+00:05:57,737 --> 00:06:00,387
+China's richest cities are on the east coast.
+
+103
+00:06:00,820 --> 00:06:03,180
+And so it's most of the demand for computing
+
+104
+00:06:03,559 --> 00:06:06,009
+But land and power are cheaper out west.
+
+105
+00:06:06,420 --> 00:06:11,810
+So the country is building huge data centers like Chongqing to do the computing for the east.
+
+106
+00:06:12,117 --> 00:06:13,457
+We visited one
+
+107
+00:06:13,622 --> 00:06:17,162
+No filming was allowed. So here's a group photo.
+
+108
+00:06:17,451 --> 00:06:24,301
+The other theme that week was aging. China has more than 300 million people over 60.
+
+109
+00:06:24,557 --> 00:06:25,637
+Across the trip
+
+110
+00:06:25,821 --> 00:06:30,951
+We saw how companies here use AI and digital tools for elder care and health.
+
+111
+00:06:31,348 --> 00:06:34,378
+Singapore is aging too, so I took a lot of notes.
+
+112
+00:06:34,796 --> 00:06:38,856
+That evening, finally, proper Chongqing hotpot.
+
+113
+00:06:39,268 --> 00:06:44,368
+So the honest answer to how spicy is Chongqing hotpot? Very spicy.
+
+114
+00:06:44,722 --> 00:06:49,672
+It's mala. So the chili burns and the Sichuan pepper numbs your mouth at the same time.
+
+115
+00:06:50,280 --> 00:06:55,350
+My tip is to order a yuanyang pot, split down the middle with a mild broth on one side.
+
+116
+00:06:55,793 --> 00:06:57,253
+No one judges you.
+
+117
+00:06:57,602 --> 00:06:58,732
+Maybe just a little
+
+118
+00:06:59,102 --> 00:07:00,062
+Then, food street.
+
+119
+00:07:00,517 --> 00:07:02,307
+What should I eat besides hotpot?
+
+120
+00:07:02,771 --> 00:07:04,111
+Jiefangbei Food Street
+
+121
+00:07:04,578 --> 00:07:08,168
+Skewers, Chongqing noodles, snacks I couldn't name.
+
+122
+00:07:08,597 --> 00:07:09,587
+If there's a queue
+
+123
+00:07:09,819 --> 00:07:10,339
+join it.
+
+124
+00:07:15,753 --> 00:07:18,453
+Is it expensive? Not compared with Singapore.
+
+125
+00:07:18,803 --> 00:07:23,743
+Last morning, a reflection session where we shared what we'd take back to Singapore.
+
+126
+00:07:24,088 --> 00:07:27,918
+Then I had one afternoon for myself and I did all the tourist things.
+
+127
+00:07:28,341 --> 00:07:36,811
+Getting around is easier than it looks. The metro and monorail are cheap and yes, at Liziba the train does really does go through a residential building.
+
+128
+00:07:37,215 --> 00:07:39,695
+Wear good shoes because there are stairs everywhere.
+
+129
+00:07:40,059 --> 00:07:42,739
+A few friends took the cableway over the Yangtze
+
+130
+00:07:43,181 --> 00:07:46,511
+An uncle was writing characters on the pavement with water
+
+131
+00:07:46,869 --> 00:07:51,909
+Of course there's folding phones too, and there's a hot pot inside an old air raid shelter.
+
+132
+00:07:52,267 --> 00:07:53,937
+Because of course there is.
+
+133
+00:07:56,819 --> 00:08:00,139
+So is a study trip worth it compared with traveling on your own?
+
+134
+00:08:00,522 --> 00:08:01,242
+definitely.
+
+135
+00:08:01,592 --> 00:08:02,862
+You get rooms you can't book.
+
+136
+00:08:03,350 --> 00:08:06,660
+And you come home with a group chat full of people who were in the room with you.
+
+137
+00:08:07,021 --> 00:08:10,861
+The program I went on is Ngee Ann Polytechnic's Travel and Learn to Chongqing.
+
+138
+00:08:11,252 --> 00:08:15,662
+If you're a Singaporean, it's SkillsFuture supported and accommodations included.
+
+139
+00:08:16,080 --> 00:08:18,090
+Check the next intake through the link below.
+
+140
+00:08:18,505 --> 00:08:19,275
+When should you go?
+
+141
+00:08:19,678 --> 00:08:21,098
+Spring or autumn
+
+142
+00:08:21,476 --> 00:08:24,526
+Summer is very hot. I went in mid October.
+
+143
+00:08:24,830 --> 00:08:27,050
+Got a question about Chongqing I didn't answer?
+
+144
+00:08:27,479 --> 00:08:28,829
+Leave it in the comments.
+
+145
+00:08:28,932 --> 00:08:30,272
+I'll answer the best ones.
+
+146
+00:08:30,682 --> 00:08:34,912
+I'm Shawn, this is Shawn in China, and I'll see you in the next city.
+
