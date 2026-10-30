@@ -8,7 +8,39 @@
 
 Length note: Instagram Reels and TikTok take 90 s+ fine. YouTube Shorts allows up to 3 minutes, so it can go up as a Short and link to the full video with the "Related video" field.
 
-## Instagram Reels / Facebook Reels
+
+## Hype reel captions (44 s reel, 30 Oct)
+
+**Instagram**
+```
+That's not CGI. That's Chongqing. 🇨🇳
+
+Do you need a visa? How do you pay? Why is it called the 8D city? How spicy is the hotpot, really? 🌶️
+
+I answered all of it in the full video. Watch it on YouTube now, link in bio ▶️
+
+#Chongqing #ChinaTravel #重庆 #8DCity #TravelReels #Singapore #StudyTrip #ExploreChina
+```
+
+**Facebook**
+```
+That's not CGI. That's Chongqing. 🇨🇳
+
+6 days, doors most tourists never walk through, and every question you've been asking me: visa, payments, robots, hotpot spice, safety at night.
+
+All the answers are in the full video 👉 https://youtu.be/z70Oz-mdocU
+
+#Chongqing #ChinaTravel #8DCity #Singapore
+```
+
+**TikTok**
+```
+That's not CGI 🤯 Visa? Payments? Robots? Hotpot? Full video on my YouTube, link in bio ▶️ #chongqing #chinatravel #重庆 #8dcity #traveltok #singapore #fyp
+```
+
+## Older trailer captions (1:32 version)
+
+### Instagram Reels / Facebook Reels
 
 ```
 That's not CGI. That's Chongqing. 🇨🇳
