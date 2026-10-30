@@ -9,12 +9,25 @@ SEG = os.environ.setdefault('SEG', K + '/seg'); PY = sys.executable; R2 = os.pat
 W, H, FPS = 1080, 1920, 30
 T = json.load(open(K + '/trailer.json')); meta = json.load(open(R2 + '/meta.json'))
 FINAL = ROOT + '/final/shawn_in_china_ep1_trailer_9x16.mp4'
-def fill(m):
-    """cover-crop any source to 9:16 (landscape clips keep their centre)"""
-    return f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"
+MAXD, CUT = 1.25, 1.05          # Reels pacing: no shot longer than MAXD; long shots become ~CUT-second cuts
+def fill(m, zoom=1.0):
+    """cover-crop any source to 9:16 (landscape clips keep their centre); zoom > 1 punches in"""
+    w, h = int(W * zoom) // 2 * 2, int(H * zoom) // 2 * 2
+    return f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"
+def quick(sh):
+    """split a long shot into fast cuts from different moments of the same clip, alternating a punch-in.
+    The first cut keeps the original in-point, so the shot still lands on the word it was cued to."""
+    m = meta.get(sh['f'], {}); n = max(1, round(sh['d'] / CUT)) if sh['d'] > MAXD else 1
+    if n == 1 or m.get('kind') != 'video': return [dict(sh, zoom=1.0)]
+    sub = sh['d'] / n; need = sub * sh['speed']
+    hi = m['dur'] - need - 0.15; lo = max(0.0, sh['st'] - 6.0)
+    pts = [sh['st'] + k * 2.2 for k in range(n)]                       # walk forward through the clip
+    if pts[-1] > hi: pts = [sh['st']] + [lo + (hi - lo) * k / max(1, n - 1) for k in range(1, n)]   # or spread over it
+    return [dict(sh, st=round(max(0.0, min(p, hi)), 3), t=round(sh['t'] + k * sub, 3), d=round(sub, 3), zoom=1.0 if k % 2 == 0 else 1.18)
+            for k, p in enumerate(pts)]
 jobs = []; n = 0; imgs = set()
 for k, s in enumerate(T['segs']):
-    for sh in s['shots']:
+    for sh in [q for x in s['shots'] for q in quick(x)]:
         d = sh['d']; sp = sh['speed']; out = f'{{SEG}}/{n:04d}.mov'
         if sh['f'].startswith('VIZ:'):          # 16:9 diagrams: centre them on a blurred copy of themselves
             m = dict(kind='viz'); ins = ['-ss', f"{sh['st']:.3f}", '-t', f'{d:.3f}', '-i', f"{R2}/viz_{sh['f'][4:]}.mp4"]
@@ -24,7 +37,7 @@ for k, s in enumerate(T['segs']):
             m = meta[sh['f']]
             if m['kind'] == 'video':
                 ins = ['-ss', f"{sh['st']:.3f}", '-t', f'{d * sp + 0.1:.3f}', '-i', f"{ROOT}/{sh['f']}"]
-                ch = (f"setpts=(PTS-STARTPTS)/{sp}," if sp != 1 else '') + fill(m)
+                ch = (f"setpts=(PTS-STARTPTS)/{sp}," if sp != 1 else '') + fill(m, sh['zoom'])
             else:
                 imgs.add(sh['f']); ins = ['-loop', '1', '-t', f'{d:.3f}', '-i', f"{R2}/img/{sh['f'].replace('/', '_')}"]; ch = fill(m)
         ins += ['-ss', f"{sh['t'] - s['t']:.3f}", '-t', f'{d:.3f}', '-i', f"{K}/tovl/{k:02d}.mov"]
