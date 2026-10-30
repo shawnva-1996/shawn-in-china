@@ -16,6 +16,9 @@ from reel_vo import energy, start_of, end_of, quiet, HOP
 import reels_score, travel_score, guofeng_score, guofeng_ai
 # series trailer = hype; day reels: 'travel' rejected 30 Oct (not Chinese), now Chinese-style trap ('guofeng' = synthesised,
 # 'guofeng_ai' = produced track fitted to the timeline)
+# 30 Oct: the busy Chinese-style beds masked short words ('Do you need a visa?'): duck them deeper, from 100 ms before
+# each phrase, and carve the voice band too
+VOICE_BAND_DUCK = {'travel': -4, 'guofeng': -9, 'guofeng_ai': -9}
 MUSIC = {'hype': reels_score.score, 'travel': travel_score.score, 'guofeng': guofeng_score.score, 'guofeng_ai': guofeng_ai.score}
 
 GRID, T0, END = 0.3, 0.2, 3.2
@@ -212,9 +215,16 @@ def _build_bed(R, kit, N):
     v = load(f'{kit}/vo.wav', 1)[:N, 0]; v = np.pad(v, (0, N - len(v))); bed = load(f'{kit}/score.wav', 2)[:N]; bed = np.pad(bed, ((0, N - len(bed)), (0, 0)))
     hop = SR // 100; env = np.array([np.sqrt(np.mean(v[i:i + hop] ** 2)) for i in range(0, N, hop)])
     talk = np.convolve((20 * np.log10(env + 1e-9) > -38).astype(np.float32), np.ones(20) / 20, 'same') > 0.05
-    g = np.where(talk, 10 ** (-4 / 20), 1.0).astype(np.float32)
+    style = R.get('music', 'hype'); duck = VOICE_BAND_DUCK.get(style, -4)
+    if style in VOICE_BAND_DUCK: talk = talk | np.roll(talk, -10)          # look ahead 100 ms so first words land clear
+    g = np.where(talk, 10 ** (duck / 20), 1.0).astype(np.float32)
     for i in range(1, len(g)): g[i] = g[i - 1] + (g[i] - g[i - 1]) * (0.25 if g[i] < g[i - 1] else 0.06)
-    bed *= np.interp(np.arange(N), np.arange(len(g)) * hop, g)[:, None].astype(np.float32) * 0.8
+    gs = np.interp(np.arange(N), np.arange(len(g)) * hop, g).astype(np.float32)
+    bed *= gs[:, None] * 0.8
+    if style in VOICE_BAND_DUCK:            # melodic beds (flute, guzheng) sit in the voice's band:
+        from scipy.signal import butter, sosfilt             # also carve 700 Hz-4 kHz by ~8 dB while he talks
+        sos = butter(2, [700, 4000], 'band', fs=SR, output='sos')
+        bed -= 0.6 * np.stack([sosfilt(sos, bed[:, k]) for k in (0, 1)], 1).astype(np.float32) * ((1 - gs) / (1 - 10 ** (duck / 20)))[:, None]
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 'f32le', '-ar', str(SR), '-ac', '2', '-i', '-', '-af', 'alimiter=limit=0.89:level=false',
                     '-c:a', 'aac', '-b:a', '256k', f'{kit}/bed.m4a'], input=bed.astype(np.float32).tobytes(), check=True)
 
