@@ -13,7 +13,8 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, HERE + '/gfx')
 from reels_spec import REELS
 from reel_vo import energy, start_of, end_of, quiet, HOP
-import reels_score
+import reels_score, travel_score
+MUSIC = {'hype': reels_score.score, 'travel': travel_score.score}     # series trailer = hype; day reels = light travel (30 Oct)
 
 GRID, T0, END = 0.3, 0.2, 3.2
 SR = 48000
@@ -180,11 +181,17 @@ def plan(name, spec, takes, meta):
         t += d
     end_t = round(t, 3); total = round(end_t + END, 3)
     cov = spec['cover']; cover = dict(f=resolve(meta, cov['f']), st=cov['st'], z=cov.get('z', 1.0), d=T0)
-    return dict(name=name, title=spec['title'], out=spec['out'], tag=spec['tag'], hook=spec['hook'], total=total, end=[end_t, END],
+    return dict(name=name, title=spec['title'], out=spec['out'], music=spec.get('music', 'hype'), tag=spec['tag'], hook=spec['hook'], total=total, end=[end_t, END],
                 cover=cover, t0=T0, segs=segs, shots=shots, vo=vo)
 
-def build_audio(R, raw, kit):
-    N = int(R['total'] * SR); vo = np.zeros(N, np.float32)
+def build_audio(R, raw, kit, vo=True):
+    """vo=False keeps the kit's existing vo.wav / vo_clean.m4a and only rebuilds the music bed"""
+    N = int(R['total'] * SR)
+    if vo: _build_vo(R, raw, kit, N)
+    _build_bed(R, kit, N)
+
+def _build_vo(R, raw, kit, N):
+    vo = np.zeros(N, np.float32)
     for v in R['vo']:
         s, f = v['raw']
         x = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-ss', str(s), '-t', str(f - s), '-i', raw, '-f', 'f32le', '-ac', '1', '-ar', str(SR), '-'],
@@ -194,8 +201,10 @@ def build_audio(R, raw, kit):
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 'f32le', '-ar', str(SR), '-ac', '1', '-i', '-', '-af', VO_CHAIN + ',loudnorm=I=-16:TP=-1.5:LRA=7',
                     '-ar', str(SR), f'{kit}/vo.wav'], input=vo.tobytes(), check=True)
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', f'{kit}/vo.wav', '-c:a', 'aac', '-b:a', '256k', f'{kit}/vo_clean.m4a'], check=True)
+
+def _build_bed(R, kit, N):
     tl = [dict(t=s['t'], d=s['d'], kind=s['kind'], flags=s['flags']) for s in R['segs']]
-    reels_score.score(tl, R['total'], R['end'][0], f'{kit}/score.wav')
+    MUSIC[R.get('music', 'hype')](tl, R['total'], R['end'][0], f'{kit}/score.wav')
     load = lambda p, ch: np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', p, '-f', 'f32le', '-ac', str(ch), '-ar', str(SR), '-'],
                                                       capture_output=True, check=True).stdout, np.float32).reshape(-1, ch).copy()
     v = load(f'{kit}/vo.wav', 1)[:N, 0]; v = np.pad(v, (0, N - len(v))); bed = load(f'{kit}/score.wav', 2)[:N]; bed = np.pad(bed, ((0, N - len(bed)), (0, 0)))

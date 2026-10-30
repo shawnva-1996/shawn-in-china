@@ -37,7 +37,7 @@ REELS = {
     ('line', [('B05', 3)], [(c(13, 8325), 3.0, dict(sp=0.5, push=1.12))], '', dict(thud=True)),
     ('silence', 1.2),
    ]),
- 'day1': dict(title='Day 1 · Before you go', out='shawn_in_china_ep1_day1_9x16.mp4', tag='CHONGQING · DAY 1/6', hook='DO THIS BEFORE CHINA',
+ 'day1': dict(music='travel', title='Day 1 · Before you go', out='shawn_in_china_ep1_day1_9x16_v2.mp4', tag='CHONGQING · DAY 1/6', hook='DO THIS BEFORE CHINA',
    cover=dict(f=c(17, 9010), st=1.0, top='CHONGQING IN 6 DAYS', big='DAY 1', sub='DO THIS', title='BEFORE CHINA'),
    segs=[
     ('line', [('B13', 1)], [(c(17, 8945), 3.0), (c(17, 8959), 3.0)], 'GOOGLE ❌ WHATSAPP ❌|INSTAGRAM ❌'),
@@ -50,7 +50,7 @@ REELS = {
     ('line', [('B14', 0), ('B14', 1)], [(c(12, 8059), 0.5), (c(12, 8070), 0.5), (c(12, 8086), 0.5), (c(12, 8089), 0.5), (c(12, 8094), 0.5)],
      'DAY 1 · WELCOME DINNER 🥢'),
    ]),
- 'day2': dict(title='Day 2 · The 8D city', out='shawn_in_china_ep1_day2_9x16.mp4', tag='CHONGQING · DAY 2/6', hook='WHY IS IT CALLED THE 8D CITY?',
+ 'day2': dict(music='travel', title='Day 2 · The 8D city', out='shawn_in_china_ep1_day2_9x16_v2.mp4', tag='CHONGQING · DAY 2/6', hook='WHY IS IT CALLED THE 8D CITY?',
    cover=dict(f=c(15, 8682), st=1.5, top='CHONGQING IN 6 DAYS', big='DAY 2', sub='THE', title='8D CITY'),
    segs=[
     ('line', [('B15', 1)], [(c(17, 8965), 1.44), (c(17, 8966), 0.5)], '8D?!'),
@@ -64,7 +64,7 @@ REELS = {
     ('line', [('B21', 0)], [(c(13, 8316), 0.5), (c(13, 8321), 0.5)], '#3 · SUZHOU|TIANJIN · CHONGQING'),
     ('line', [('B23', 0), ('B23', 1), ('B23', 2)], [(c(13, 8393), 0.5), (c(13, 8395), 0.5), (c(13, 8396), 1.06), (c(13, 8400), 0.5)], '📍 GUANYINQIAO'),
    ]),
- 'day3': dict(title='Day 3 · Robots and a whole roast lamb', out='shawn_in_china_ep1_day3_9x16.mp4', tag='CHONGQING · DAY 3/6',
+ 'day3': dict(music='travel', title='Day 3 · Robots and a whole roast lamb', out='shawn_in_china_ep1_day3_9x16_v2.mp4', tag='CHONGQING · DAY 3/6',
    hook='ARE ROBOTS REALLY EVERYWHERE?',
    cover=dict(f=c(14, 8580), st=38.5, z=1.2, top='CHONGQING IN 6 DAYS', big='DAY 3', sub='ROBOTS &', title='A WHOLE LAMB'),
    segs=[
@@ -80,7 +80,7 @@ REELS = {
     ('line', [('B35', 0)], [(c(14, 8619), 0.5), (c(14, 8617), 0.5)], 'NO MALA 🙅'),
     ('line', [('B36', 0)], [(c(14, 8618), 0.3)], ''),
    ]),
- 'day4': dict(title='Day 4 · Eling and Hongyadong', out='shawn_in_china_ep1_day4_9x16.mp4', tag='CHONGQING · DAY 4/6', hook='NOT JUST NEON',
+ 'day4': dict(music='travel', title='Day 4 · Eling and Hongyadong', out='shawn_in_china_ep1_day4_9x16_v2.mp4', tag='CHONGQING · DAY 4/6', hook='NOT JUST NEON',
    cover=dict(f=c(15, 8722), st=1.5, top='CHONGQING IN 6 DAYS', big='DAY 4', sub='THE NIGHT', title='EVERYONE COMES FOR'),
    segs=[
     ('line', [('B37', 0)], [(c(15, 8666), 0.5)], ''),
@@ -93,7 +93,7 @@ REELS = {
     ('line', [('B47', 0), ('B47', 1), ('B47', 2)], [(DANCE, 13.83), (c(15, 8748), 0.3)], 'SAFE? ✅|MIND YOUR PHONE'),
     ('line', [('B48', 0), ('B48', 1)], [(RIVER, 2.0), (c(15, 8737), 0.5), (c(15, 8704), 0.5), (c(15, 8740), 0.5)], '', dict(low=True)),
    ]),
- 'day5': dict(title='Day 5 · Data centres and hotpot', out='shawn_in_china_ep1_day5_9x16.mp4', tag='CHONGQING · DAY 5/6',
+ 'day5': dict(music='travel', title='Day 5 · Data centres and hotpot', out='shawn_in_china_ep1_day5_9x16_v2.mp4', tag='CHONGQING · DAY 5/6',
    hook='HOW SPICY IS CHONGQING HOTPOT?',
    cover=dict(f=c(16, 8909), st=0.5, top='CHONGQING IN 6 DAYS', big='DAY 5', sub='HOW SPICY IS', title='THE HOTPOT?'),
    segs=[
@@ -108,7 +108,7 @@ REELS = {
      '📍 JIEFANGBEI FOOD STREET'),
     ('line', [('B59', 0)], [(c(16, 8917), 0.5)], '💸?'),
    ]),
- 'day6': dict(title='Day 6 · On my own, and was it worth it?', out='shawn_in_china_ep1_day6_9x16.mp4', tag='CHONGQING · DAY 6/6',
+ 'day6': dict(music='travel', title='Day 6 · On my own, and was it worth it?', out='shawn_in_china_ep1_day6_9x16_v2.mp4', tag='CHONGQING · DAY 6/6',
    hook='A TRAIN THROUGH A BUILDING?',
    cover=dict(f=c(17, 8928), st=1.5, z=1.1, top='CHONGQING IN 6 DAYS', big='DAY 6', sub='A TRAIN THROUGH', title='A BUILDING?'),
    segs=[
