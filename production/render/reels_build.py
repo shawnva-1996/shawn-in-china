@@ -44,6 +44,17 @@ def split_end(edb, r0, r1):
     if best is None: raise RuntimeError('no pause found to split the take')
     return (best[0] + min(10, (best[1] - best[0]) // 2)) * HOP
 
+LEAD, TAIL = 0.15, 0.20      # room tone kept before the first sound and after the last one (as far as the pause allows)
+
+def pad_cut(edb, s, f):
+    """start_of/end_of cut right at the edge of the voice (often 20 ms before the first sound, so the 20 ms fade-in can
+    soften a soft first consonant). Move both cuts out into the surrounding pause, never past its far end."""
+    i, j = int(round(s / HOP)), int(round(f / HOP)); q = quiet(edb, i); k = i
+    while k > max(0, i - int(LEAD / HOP)) and edb[k - 1] < q: k -= 1
+    q = quiet(edb, j); m = j
+    while m < min(len(edb) - 4, j + int((TAIL - 0.1) / HOP)) and np.all(edb[m:m + 4] < q): m += 1   # end_of already left 0.1 s
+    return round(k * HOP, 3), round(m * HOP, 3)
+
 def cut_takes(spec, tl, edb):
     beats = {b['id']: b for b in tl['beats']}; out = {}
     for seg in spec['segs']:
@@ -63,6 +74,7 @@ def cut_takes(spec, tl, edb):
                 f = split_end(edb, r_last + 0.15, r_next + 0.1)
             else:
                 f = end_of(edb, p['src'][1])
+            s, f = pad_cut(edb, s, f)
             out[key] = dict(raw=[round(s, 3), round(f, 3)], text=text, onset=round(p['src'][0] - s, 3),
                             words=[[FIX.get(w.strip('.,?!'), w.strip('.,?!')) + w[len(w.rstrip('.,?!')):], round(t - p['at'], 3)] for w, t in words])
     return out
@@ -112,6 +124,7 @@ def verify_takes(takes, raw):
                              'start and the very end. Return JSON: {"transcript": verbatim words you hear, "first_word_clipped": bool, '
                              '"last_word_clipped": bool, "missing_words": [expected words you did not hear], '
                              '"extra_words": [whole or partial words heard that are not in the expected text]}'}])
+        if isinstance(r, list): r = r[0] if r else {}
         heard, exp = norm(r.get('transcript', '')), norm(v['text'])
         ok = not (r.get('first_word_clipped') or r.get('last_word_clipped') or r.get('missing_words') or r.get('extra_words'))
         ok = ok and heard[:1] == exp[:1] and heard[-1:] == exp[-1:]
