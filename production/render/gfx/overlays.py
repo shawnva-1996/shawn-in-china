@@ -94,7 +94,8 @@ for b in T['beats']:
         elif kind == 'endcard': L += endcard_layers(t0)
     for s in T['shots']:
         if s['beat'] == b['id'] and s['f'].startswith('from_wechat/'):
-            im = friend_tag(); L.append(Layer(im, W - 70 - im.width / 2, H - 60 - im.height / 2, s['t'] - a0 + 0.3, 'fade', 0.3, s['t'] - a0 + s['d'] - 0.3))
+            end = min([s['t'] + s['d']] + [f['t'] for f in items if f['kind'] == 'endcard']) - a0   # no credit over the end card
+            im = friend_tag(); L.append(Layer(im, W - 70 - im.width / 2, H - 60 - im.height / 2, s['t'] - a0 + 0.3, 'fade', 0.3, end - 0.3))
         if s['beat'] == b['id'] and s['f'] == 'VIZ:map':
             words = [w for p in b['pieces'] for w in p['words']]
             def wt(w, d, after=0.0):

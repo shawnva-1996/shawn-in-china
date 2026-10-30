@@ -64,3 +64,13 @@ What should I answer in the next video? Drop your Chongqing (or China) questions
 4. Chapters appear automatically from the timestamps in the description (first one must be 0:00).
 5. Visibility: Unlisted first, watch it once on your phone, then switch to Public.
 6. Pin the comment above.
+
+## Connecting YouTube so Claude can help publish
+
+No connector available today can push a local video file straight to YouTube (YouTube only accepts uploads from a signed-in browser or an app with its own upload API key). So the split is:
+
+1. **You upload the file** in YouTube Studio (studio.youtube.com → Create → Upload videos). Leave it **Unlisted** or **Private**. This takes a couple of minutes.
+2. **Connect your channel to vidIQ once** (vidIQ is already connected to Claude): open the authorization link Claude gives you, sign in with the Google account that owns the Shawn in China channel, and approve. Check that it's the channel account, not a personal one (vidIQ is currently signed in as shawndabi1996@gmail.com).
+3. **Claude does the rest through vidIQ**: title, description, tags, visibility and scheduled publish time (5 vidIQ credits per update), and the thumbnail. Captions and the pinned comment still go in by hand in Studio.
+
+Later, if you want fully hands-off uploads, the options are the Metricool connector (schedules YouTube posts from a public file link) or a small YouTube Data API script with your own Google Cloud OAuth client. Both need a one-time Google sign-in from you.
