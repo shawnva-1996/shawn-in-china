@@ -41,6 +41,7 @@ Shawn rejected the first two reel cuts. These rules come from that feedback; fol
 **Music and sound.**
 10. Trailer feel = braam hits, a ticking pulse, a riser into a drop, one beat of dead silence, a drum montage and a final title hit. `render/trailer_score.py` synthesises one timed to the script (no copyright claims). Day reels can reuse the full video's music bed.
 11. Keep the music big but dip it about 4 dB under the voice; mix to -14 LUFS.
+11a. Music style for China content: Chinese-style (guofeng) trap, like the Chongqing night motorbike-ride videos. Generic Western travel pop was rejected (30 Oct). Day reels use `render/guofeng_score.py` (synthesised guzheng, bamboo flute, opera gongs, 808, motorbike rev into drops), chosen over a produced AI take (`render/guofeng_ai.py`). The series trailer keeps the hype score. Audition a style on built kits with `MUSIC=<style> render/reels_bed.py <kit>` and send music-only and with-voice previews before rendering.
 
 **Publishing.**
 12. Cover: 1080×1920 with all text inside the 3:4 profile-grid crop (y ≈ 240–1680).
