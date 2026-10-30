@@ -33,6 +33,9 @@ Shawn rejected the first two reel cuts. These rules come from that feedback; fol
 7. **Cut VO lines from the raw recording at real pauses, never from word timestamps.** The Gemini word times in `timeline2.json` are only good to about ±0.1 s, and inside a take they can be off by whole words. Lines lifted from the middle of a take came out as "people call it the 8D" and "really everywhere in China". `render/reel_vo.py` finds the room-tone gap before the first word and after the last one in `vo_raw.wav` and cuts there.
 8. **Check every line by transcription before rendering**: cut each line as its own clip and ask Gemini for the verbatim words plus whether the first or last word is clipped (see the check in `render/reel_vo.py`'s notes). Then transcribe the final mix too. Anything short of the full expected sentence goes back.
 9. Fade only inside the pause (20 ms in, 50 ms out) and leave about 0.1 s of natural decay after the last word.
+9a. **The check catches real clipping, so act on it.** In the day-reel build, 18 of 108 whole takes still lost their last word with the automatic cut (soft endings such as "shops", "country", "the hall"). `render/reels_build.py` re-cuts a failed take with a longer tail (+0.15 s, +0.3 s, then the end of each following pause) and re-checks it. **A cut that failed once is never accepted on a retry**, because Gemini can pass the same clipped audio a second time; it must be re-cut.
+9b. **The timeline text can be wrong too.** Sometimes the recording has words the transcript dropped ("…the best meal we had *in Chongqing*", "walked around *the hall*") or a misheard word ("shop" for "chef"). Then the take never passes against the old text. Transcribe the take freely (no expected text), and if the audio is complete, fix the text and caption words in `TEXT` in `reels_build.py`.
+9c. After the kits are built, transcribe each reel's whole VO track (`vo.wav`) against the script and look at every difference.
 
 **Music and sound.**
 10. Trailer feel = braam hits, a ticking pulse, a riser into a drop, one beat of dead silence, a drum montage and a final title hit. `render/trailer_score.py` synthesises one timed to the script (no copyright claims). Day reels can reuse the full video's music bed.
@@ -44,7 +47,9 @@ Shawn rejected the first two reel cuts. These rules come from that feedback; fol
 14. Version every render (`final/..._v2_...`) and never overwrite one Shawn has already seen.
 
 **Getting files to and from the Mac.**
-- Render on the Mac with Remote Control (native Homebrew ffmpeg; a 44 s reel renders in about a minute). Build overlays and audio in the cloud and copy the kit across with `device_commit_files` (≤30 MB per file, ≤100 MB per call) when the device bridge is up; a temporary public branch works as a fallback, but the git proxy can't delete branches afterwards.
+- Render on the Mac with Remote Control (native Homebrew ffmpeg; a 44 s reel renders in about a minute). Build overlays and audio in the cloud and copy the kit across with `device_commit_files` (≤30 MB per file, ≤100 MB and ≤50 files per call) when the device bridge is up. Overlays as PNG `.mov` are huge (551 MB for 7 reels); re-encode them as VP9 with alpha (`.webm`, 45 MB for all 7, `make_reel.py` decodes them with `-c:v libvpx-vp9`) and send one `.tar` per reel. Avoid temporary public branches: the git proxy can't delete them afterwards.
+- Overlays can't be built on the Mac: they need the Inter and Noto emoji fonts of the cloud container.
+- Dry-run `make_reel.py` in the cloud first with stand-in footage (tiny `testsrc2` clips at every path the kit uses) to catch pipeline bugs before using the Mac.
 - Pull QA stills and the final MP4 back with `device_stage_files` to check frames and attach the video.
 
 ## Pipeline
@@ -61,6 +66,7 @@ Shawn rejected the first two reel cuts. These rules come from that feedback; fol
 | 8. QA | frame sheets + a low-res preview | Check every chapter card, each sticker against the shot under it, and the cue sync on named objects. |
 | 9. Publish | `youtube_upload_ep*.md` | Title, description, chapters, links, tags, captions, pinned comment. |
 | 10. Reels | `reel_plan.py` → `reel_vo.py` → `gfx/reel_ovl.py` → `reel_audio.py` → `make_reel.py` (on the Mac) | 9:16 cuts on a music grid, VO lines cut at real pauses, trailer overlays and end card. See the Reels section above. |
+| 11. Series of reels | `reels_spec.py` (scripts as data) → `reels_build.py` (cut + check takes, plan, `reels_score.py` music, `gfx/reels_ovl.py` overlays and cover) → `make_reel.py` (on the Mac) | The series trailer and one reel per day. Cover frame first (also saved as `final/<reel>_cover.jpg`). Verified takes are cached in `takes.json` in the work folder. |
 
 ## Practical limits on Shawn's Mac
 
