@@ -3,13 +3,13 @@ Each segment = source clip (trimmed, speed-ramped, framed to 16:9) + that beat's
 seeked to the same moment) + the clip's own sound at a low level (full level on 'nat' beats, muted on WeChat
 clips' talk-over and on slowed shots).
 usage: jobs2.py <workdir> [--preview]      writes <workdir>/jobs2.json
-paths in the jobs use {HOME}/{SEG}; the kit (ovl/, viz_map.mp4, vo_clean.m4a, bed.m4a) lives on the Mac in KIT.
+paths in the jobs use {ROOT} (the shoot folder) and {SEG}; the kit (ovl/, viz_map.mp4, vo_clean.m4a, bed.m4a) lives on the Mac in KIT.
 """
 import json, os, sys
 WD = sys.argv[1]; PREVIEW = '--preview' in sys.argv
 W, H, FPS = (960, 540, 30) if PREVIEW else (1920, 1080, 30)
 T = json.load(open(f'{WD}/timeline2.json')); meta = json.load(open(f'{WD}/meta.json'))
-DEV = '{HOME}/mnt/shawn-in-china'; KIT = DEV + '/_work/render2'; IMG = '{HOME}/img'
+DEV = '{ROOT}'; KIT = DEV + '/_work/render2'; IMG = KIT + '/img'
 spans = {b['id']: b['span'] for b in T['beats']}
 have_ovl = {f[:-4] for f in os.listdir(f'{WD}/ovl') if f.endswith('.mov')}
 
