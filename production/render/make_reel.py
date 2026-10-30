@@ -3,13 +3,13 @@
 Needs here: reel.json, rovl/ (overlays + end.mp4), vo_clean.m4a, bed.m4a; and ../render2/meta.json, runner.py, mix2.py.
 Every cut is explicit in reel.json (no automatic splitting): z = punch-in, push = slow zoom to that scale over the
 shot, sp < 1 = slow motion from the 60 fps originals, hold = freeze the last frame for that long, BLACK = black frame.
-Writes final/shawn_in_china_ep1_reel_9x16.mp4 and qa/ stills + preview, then deletes its segments."""
+Writes final/shawn_in_china_ep1_reel_9x16.mp4 (or final/$OUT) and qa/ stills + preview, then deletes its segments."""
 import json, os, subprocess, sys, time
 K = os.path.dirname(os.path.abspath(__file__)); ROOT = os.environ.setdefault('ROOT', os.path.abspath(K + '/../..'))
 SEG = os.environ.setdefault('SEG', K + '/seg'); PY = sys.executable; R2 = os.path.abspath(K + '/../render2')
 W, H, FPS = 1080, 1920, 30
 R = json.load(open(K + '/reel.json')); meta = json.load(open(R2 + '/meta.json'))
-FINAL = ROOT + '/final/shawn_in_china_ep1_reel_9x16.mp4'
+FINAL = ROOT + '/final/' + os.environ.get('OUT', 'shawn_in_china_ep1_reel_9x16.mp4')
 ENC = ['-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-threads', '2', '-pix_fmt', 'yuv420p',
        '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '2']
 def frame(sh):
