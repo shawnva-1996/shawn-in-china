@@ -1,5 +1,7 @@
 # Trailer (9:16) upload sheet: Episode 1
 
+> **Current reel:** `final/shawn_in_china_ep1_reel_9x16.mp4` (44 s hype reel, replaces the rejected 1:32 trailer). Cover frame: "NOT CGI." at 0:01. Suggested caption is in `reel_script_v1.md`.
+
 **File:** `final/shawn_in_china_ep1_trailer_9x16.mp4` (1080×1920, about 1:32). Captions are burned in, so turn off auto-captions on Instagram and TikTok.
 **Full video:** https://youtu.be/z70Oz-mdocU (put this in your Instagram/TikTok bio link before posting).
 **Cover frame:** the "NOT CGI." drone frame at 0:01.
