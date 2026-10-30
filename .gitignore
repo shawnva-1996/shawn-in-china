@@ -8,3 +8,4 @@ new_gemini_pool.json
 _work/
 *.m4a
 *.wav
+__pycache__/
