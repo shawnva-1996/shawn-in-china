@@ -45,7 +45,7 @@ def main(tl_path, out):
     for (at, a, e), end in zip(VO, '...???????.'):
         ws = [[w, round(at + t - a, 3)] for w, t in words if a - 0.02 <= t < e - 0.05]
         if ws and ws[-1][0][-1] not in '.?!': ws[-1][0] += end
-        vo.append(dict(at=at, src=[a, e], words=ws))
+        vo.append(dict(at=at, src=[a, e], words=ws, text=' '.join(w for w, _ in ws)))
     segs, shots = [], []
     for name, t0, t1, text, cuts in SEGS:
         t = t0

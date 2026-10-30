@@ -13,6 +13,40 @@ Oct 2026) is the reference; its pipeline is in [`render/`](./render/README.md). 
 6. **Visuals explain, they don't decorate.** Stickers and pills mark a list ("Google ❌ / Amap ✓"), a number gets a count-up, a concept gets a diagram (the East Data West Computing map). About one graphic every 5–8 s, each with a small sound effect.
 7. **Facts we can't confirm stay out of the picture.** No programme fees (they change every intake). Visa and payment rules always point to the official links in the description.
 
+## Reels, Shorts and TikToks (lessons from ep. 1, 30 Oct 2026)
+
+Shawn rejected the first two reel cuts. These rules come from that feedback; follow them before showing anything.
+
+**Approval gates, in this order.** (1) The script as a markdown file, (2) the music, (3) the render. Never render before the script and the music are approved. Send the finished MP4 as an attachment so Shawn can watch it on his phone, plus a cover image and the post captions.
+
+**What a reel is for.**
+1. **A reel builds hype or gives one self-contained story; it is not a shrunk YouTube video.** The first trailer was rejected for "revealing too much". A hype reel asks the questions and cuts away before the answers; a day reel tells one day and ends with "full video on YouTube".
+2. **Every line is a complete sentence.** Use whole recorded takes only. Never start or end a line in the middle of a take.
+3. **Every picture in a script is a real clip, named by file.** The first script invented shots (passport, plane window, a door) that were never filmed. Check `shot_log.csv` before writing a picture cell.
+
+**Picture.**
+4. **9:16 means portrait clips first.** Check the `orientation` column in `shot_log.csv` (`meta.json` width/height ignore the iPhone rotation flag, so a portrait clip can look landscape there). Use a landscape clip only when the moment has no portrait version, then centre-crop it. Ep. 1: only 50 of 270 clips are portrait, mostly food, Hongyadong, Jiefangbei and the last day.
+5. **Fast cuts**: about 0.6–1.2 s per cut, on the music's beat, alternating punch-ins. A single long shot only for a deliberate slow beat.
+6. Burned-in captions of 1–3 words, a thin letterbox for the trailer look, the "📱 filmed by a friend" tag on WeChat clips, and an end card that sends people to the full video.
+
+**Voice (the mistake that got the reel rejected).**
+7. **Cut VO lines from the raw recording at real pauses, never from word timestamps.** The Gemini word times in `timeline2.json` are only good to about ±0.1 s, and inside a take they can be off by whole words. Lines lifted from the middle of a take came out as "people call it the 8D" and "really everywhere in China". `render/reel_vo.py` finds the room-tone gap before the first word and after the last one in `vo_raw.wav` and cuts there.
+8. **Check every line by transcription before rendering**: cut each line as its own clip and ask Gemini for the verbatim words plus whether the first or last word is clipped (see the check in `render/reel_vo.py`'s notes). Then transcribe the final mix too. Anything short of the full expected sentence goes back.
+9. Fade only inside the pause (20 ms in, 50 ms out) and leave about 0.1 s of natural decay after the last word.
+
+**Music and sound.**
+10. Trailer feel = braam hits, a ticking pulse, a riser into a drop, one beat of dead silence, a drum montage and a final title hit. `render/trailer_score.py` synthesises one timed to the script (no copyright claims). Day reels can reuse the full video's music bed.
+11. Keep the music big but dip it about 4 dB under the voice; mix to -14 LUFS.
+
+**Publishing.**
+12. Cover: 1080×1920 with all text inside the 3:4 profile-grid crop (y ≈ 240–1680).
+13. Captions per platform with a clear call to action: Instagram and TikTok say "link in bio" (put the YouTube link in the bio first); Facebook can carry the link itself. Turn off auto-captions, since captions are burned in.
+14. Version every render (`final/..._v2_...`) and never overwrite one Shawn has already seen.
+
+**Getting files to and from the Mac.**
+- Render on the Mac with Remote Control (native Homebrew ffmpeg; a 44 s reel renders in about a minute). Build overlays and audio in the cloud and copy the kit across with `device_commit_files` (≤30 MB per file, ≤100 MB per call) when the device bridge is up; a temporary public branch works as a fallback, but the git proxy can't delete branches afterwards.
+- Pull QA stills and the final MP4 back with `device_stage_files` to check frames and attach the video.
+
 ## Pipeline
 
 | Step | Script | What it does |
@@ -26,6 +60,7 @@ Oct 2026) is the reference; its pipeline is in [`render/`](./render/README.md). 
 | 7. Render | `jobs2.py` → `runner.py` → `mix2.py` (on the Mac) | One ffmpeg job per shot against the original footage (nothing is uploaded), then concat and final mix at -14 LUFS. |
 | 8. QA | frame sheets + a low-res preview | Check every chapter card, each sticker against the shot under it, and the cue sync on named objects. |
 | 9. Publish | `youtube_upload_ep*.md` | Title, description, chapters, links, tags, captions, pinned comment. |
+| 10. Reels | `reel_plan.py` → `reel_vo.py` → `gfx/reel_ovl.py` → `reel_audio.py` → `make_reel.py` (on the Mac) | 9:16 cuts on a music grid, VO lines cut at real pauses, trailer overlays and end card. See the Reels section above. |
 
 ## Practical limits on Shawn's Mac
 
