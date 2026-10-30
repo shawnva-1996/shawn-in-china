@@ -28,7 +28,7 @@
 
 ## Day 3 — Wednesday, 14 October
 
-**Important:** The source lists two alternative tracks, Program A and Program B. The participant's assigned track is not specified here.
+**Shawn's track: Program A** (confirmed by Shawn on 2026-10-21). The booklet says Program B was for participants from the Singapore Institute of Architects.
 
 ### Program A — Life sciences, healthcare and technology
 
@@ -39,11 +39,13 @@
 - **12:00** — Lunch.
 - **14:00** — CVTE Exhibition Hall: electronic components, future education, enterprise services, commercial displays, computing power, smart hardware and intelligent manufacturing.
 - **15:30** — Guangyu Mingdao Digital Technology: intelligent manufacturing, networked collaboration, personalised customisation, digital management and technology-enabled services.
-- **16:30** — Qiteng Robotics: the source associates this visit with specialised robotics and high-technology robotic solutions. The description's placement in the supplied text is ambiguous.
+- **16:30** — Qiteng Robotics: design, R&D, production, sales and servicing of specialised robotics and high-technology robotic solutions.
+- **18:00** — Dinner.
+- **20:00** — Programme ends; free time to explore Hongyadong.
 
 ### Program B — Urban renewal and commercial revitalisation
 
-Times are not clearly provided for these visits in the source.
+Not attended by Shawn. Same time slots as Program A in the booklet (09:30, 10:20, 12:00 lunch, 14:00, 15:30).
 
 - Cushman & Wakefield Chongqing — urban renewal and commercial revitalisation, including Eighteen Steps Traditional Style Area and Luzu Temple Traditional Style Area.
 - Chongqing Medical University Yuanjiagang Campus Renovation Project — Chongqing Design Institute and urban-renewal design, including mountainous architecture and multidisciplinary services.
@@ -51,7 +53,7 @@ Times are not clearly provided for these visits in the source.
 - Liangjiang Jinshan Yiku — cultural and creative industry park converted from former industrial buildings.
 - TYLIN International Chongqing project visit and business matching — projects mentioned include Liangjiang Bridge and the exterior architecture of Seres headquarters; potential matching with industry organisations and relevant construction authorities.
 
-**Evening timing ambiguity:** The source also mentions dinner at **18:00** and programme end/free time at **20:00** to explore Hongyadong, but it is unclear whether these timings apply to Program B, both tracks, or were displaced from another section.
+The 18:00 dinner and 20:00 Hongyadong free time apply to both tracks.
 
 ## Day 4 — Thursday, 15 October
 
@@ -87,6 +89,8 @@ Times are not clearly provided for these visits in the source.
 
 ## Items to confirm
 
-1. Whether the participant is assigned to Day 3 Program A or Program B.
-2. The exact Day 3 Program B visit times and whether the 18:00 dinner / 20:00 Hongyadong free-time schedule applies to that track.
-3. Confirm all times and visit arrangements with the organisers, as the itinerary may change.
+1. Confirm all times and visit arrangements with the organisers, as the itinerary may change.
+
+## Verification
+
+Checked against photos of the printed booklet on 2026-10-21: [sources/itinerary-booklet/2026-itinerary-booklet-ocr.md](./sources/itinerary-booklet/2026-itinerary-booklet-ocr.md).
