@@ -37,7 +37,7 @@ def span(im, x, y, a, b, anim='none', dur=0.01):
     return Layer(lambda t, im=im, life=b - a: im if t < life else BLANK, x, y, a, anim, dur)
 def title(txt, size, fill='white'):
     """Anton title that can carry emoji"""
-    if re.search(r'[\U0001F000-\U0001FAFF☀-➿⬀-⯿]', txt):
+    if re.search(r'[\U0001F000-\U0001FAFF☀-➿⬀-⯿⌀-⏿\u4e00-\u9fff]', txt):    # emoji, clock symbols, Chinese
         return fit(rich(txt, int(size * 0.8), fill, ANTON, stroke=max(6, size // 14), stroke_fill=INK))
     return fit(big_text(txt, size, fill, max(6, size // 16)))
 

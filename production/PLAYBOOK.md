@@ -27,6 +27,7 @@ Shawn rejected the first two reel cuts. These rules come from that feedback; fol
 **Picture.**
 4. **9:16 means portrait clips first.** Check the `orientation` column in `shot_log.csv` (`meta.json` width/height ignore the iPhone rotation flag, so a portrait clip can look landscape there). Use a landscape clip only when the moment has no portrait version, then centre-crop it. Ep. 1: only 50 of 270 clips are portrait, mostly food, Hongyadong, Jiefangbei and the last day.
 5. **Fast cuts**: about 0.6–1.2 s per cut, on the music's beat, alternating punch-ins. A single long shot only for a deliberate slow beat.
+6a. **Check every on-screen symbol renders.** Anton has no ✓, ⏰ or Chinese characters, so they came out as empty boxes in the first day-reel render. Text with emoji, clock symbols or Chinese goes through `rich()` (Noto Color Emoji + WenQuanYi); use ✅ rather than ✓. Render a sheet of every non-ASCII title before the render.
 6. Burned-in captions of 1–3 words, a thin letterbox for the trailer look, the "📱 filmed by a friend" tag on WeChat clips, and an end card that sends people to the full video.
 
 **Voice (the mistake that got the reel rejected).**
